@@ -1,0 +1,64 @@
+* {
+  background-color: black;
+  font-family: Arial, "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  height: 450px;
+  width: 400px;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px;
+}
+.header-box {
+  position: relative;
+  padding-bottom: 40px;
+  padding-top: 50px;
+}
+.header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+h1 {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-size: 40px;
+  text-align: center;
+}
+label {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+label,
+input,
+value {
+  color: blue;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+#menu {
+  position: relative;
+  text-align: center;
+  padding-top: 50px;
+}
+#search-movies {
+  right: 0;
+  background-color: white;
+}
+
+.container {
+  position: relative;
+  background-color: black;
+  left: 0;
+  right: 0;
+  padding-left: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}

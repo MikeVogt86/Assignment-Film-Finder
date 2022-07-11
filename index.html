@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assignment Film Finder</title>
+    <link rel="stylesheet" value="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="header-box">
+      <div class="header"><h1>Mike's Movie Search</h1></div>
+    </div>
+    <div class="menu" id="menu">
+      <nav>
+        <input
+          type="radio"
+          id="latest"
+          name="filter-button"
+          value="Latest movies, 2014 or newer"
+        /><label>Latest movies, 2014 or newer</label>
+        <input
+          type="radio"
+          id="avenger"
+          name="filter-button"
+          value="Avenger movies"
+        /><label>Avenger movies</label>
+        <input
+          type="radio"
+          id="x-men"
+          name="filter-button"
+          value="X-men movies"
+        /><label>X-men movies</label>
+        <input
+          type="radio"
+          id="princess"
+          name="filter-button"
+          value="Princess movies"
+        /><label>Princess movies</label>
+        <input
+          type="radio"
+          id="batman"
+          name="filter-button"
+          value="Batman movies"
+        /><label>Batman movies</label>
+        <input
+          type="radio"
+          id="all-movies"
+          name="filter-button"
+          value="All movies"
+        /><label>All movies</label>
+        <input
+          type="search"
+          id="search-movies"
+          name="search_btn"
+          value="search..."
+        /><label></label>
+      </nav>
+    </div>
+    <div class="container" id="container">
+      <ul id="list-of-movie"></ul>
+    </div>
+    <script defer src="movie_database.js?speed=2"></script>
+    <script defer src="script.js?speed=2"></script>
+  </body>
+</html>
